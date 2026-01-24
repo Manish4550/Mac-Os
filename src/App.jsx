@@ -1,17 +1,17 @@
-import "./app.scss"
-import Dock from "./component/Dock"
-
+import "./app.scss";
+import Dock from "./component/Dock";
+import Nav from "./component/Nav";
+import DateTIme from "./component/DateTime";
 
 function App() {
-  
-
   return (
     <>
-    <main>
-      <Dock/>
-    </main>
+      <main>
+        <Nav />
+        <Dock />
+      </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
