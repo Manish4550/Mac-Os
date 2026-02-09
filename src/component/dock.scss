@@ -8,7 +8,7 @@
 
     background-color: rgb(63, 63, 63, 0.395);
     padding-inline: 1rem;
-    padding-block: 0.75rem;
+    padding-block: 0.5rem;
     border-radius: 0.75rem;
 
     backdrop-filter: blur(5px);
@@ -16,8 +16,8 @@
 
 
     .icon {
-        padding: 0.65rem;
-        border-radius: 0.5rem;
+        padding: 0.1rem;
+        border-radius: 0.3rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -30,6 +30,7 @@
     .github,
     .cli {
         background-color: black;
+        
     }
 
     .note {

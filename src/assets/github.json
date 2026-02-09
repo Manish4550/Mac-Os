@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "image": "../../public/Authentication.png",
+    "title": "MERN Authentication System",
+    "description": "A full-stack authentication and authorization system built using MongoDB, Express, React, and Node.js. This project implements a complete auth flow including email verification, login, logout, forgot password, reset password, and protected routes.",
+    "tags": ["React","Backend", "Express.js","Node.js" , "MongoDB & Mongoose", "JWT", "Bryptjs","Tailwind", "Nodemailer (Mailtrap for email testing)"],
+    "repoLink": "https://github.com/Manish4550/Authentication",
+    "demoLink": "https://authentication-97us.onrender.com"
+  },
+  {
+    "id": 2,
+    "image": "../../public/Productivity Dashbord.png",
+    "title": "Productivity Dashboard",
+    "description": "A lightweight Productivity Dashboard built with HTML, CSS, and JavaScript. Track tasks, and see live time, date, and weather—all in one place.",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "repoLink": "https://github.com/Manish4550/productivity-dashboard?tab=readme-ov-file",
+    "demoLink": "https://productivity-dashboard-iota-six.vercel.app/"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&q=80&w=1000",
+    "title": "SecureAuth - Backend Identity Service",
+    "description": "A robust backend authentication microservice featuring JWT implementation, role-based access control, and OAuth2 integration.",
+    "tags": ["Python", "Django", "PostgreSQL", "Docker", "Redis", "JWT"],
+    "repoLink": "https://github.com/django/django",
+    "demoLink": null
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=1000",
+    "title": "ChatStream - Real-time Messaging App",
+    "description": "A lightweight chat application allowing users to create rooms and message instantly. Optimized for low latency communication.",
+    "tags": ["Vue.js", "Firebase", "Tailwind CSS", "Socket.io"],
+    "repoLink": "https://github.com/vuejs/core",
+    "demoLink": "https://vuejs.org/"
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=1000",
+    "title": "TerminalX - CLI Productivity Tool",
+    "description": "A command-line interface tool built to automate repetitive developer tasks and manage local environments efficiently.",
+    "tags": ["Rust", "Clap", "Tokio", "System API"],
+    "repoLink": "https://github.com/rust-lang/rust",
+    "demoLink": null
+  }
+]

@@ -1,45 +1,32 @@
-import { useEffect, useState } from "react";
+import React, { useState, useEffect } from 'react'
 
-
-const DateTIme = () => {
-  const [time, setTime] = useState("");
+const DateTime = () => {
+  const [dateTime, setDateTime] = useState('')
 
   useEffect(() => {
-    const timer = setInterval(() => {
-      const now = new Date();
+    const updateDateTime = () => {
+      const now = new Date()
+      const formattedDateTime = now.toLocaleString('en-US', {
+        weekday: 'short',
+        month: 'short',
+        day: 'numeric',
+        hour: 'numeric',
+        minute: '2-digit',
+        hour12: true
+      }).toLowerCase().replace(/,/g, '')
+      
+      setDateTime(formattedDateTime)
+    }
 
-      const day = now
-        .toLocaleString("en-US", { weekday: "short" })
-        .toLowerCase();
+    updateDateTime()
+    const interval = setInterval(updateDateTime, 1000)
 
-      const month = now
-        .toLocaleString("en-US", { month: "short" })
-        .toLowerCase();
-
-      const date = now.getDate();
-
-      let hours = now.getHours();
-      const minutes = String(now.getMinutes()).padStart(2, "0");
-      const ampm = hours >= 12 ? "pm" : "am";
-
-      hours = hours % 12 || 12;
-
-      setTime(`${day} ${month} ${date} ${hours}:${minutes} ${ampm}`);
-    }, 1000);
-
-    return () => clearInterval(timer);
-  }, []);
+    return () => clearInterval(interval)
+  }, [])
 
   return (
-    <p
-      style={{
-        fontFamily:
-          "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
-        }}
-    >
-      {time}
-    </p>
-  );
-};
+    <div>{dateTime}</div>
+  )
+}
 
-export default DateTIme;
+export default DateTime
