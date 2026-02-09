@@ -10,21 +10,21 @@
   },
   {
     "id": 2,
+    "image": "/project-2.png",
+    "title": "Mac-os-terminal-portfolio",
+    "description": "An interactive MacOS-inspired developer portfolio built using React.js This project simulates a real desktop experience with draggable windows,terminal commands, project previews, and resume access.",
+    "tags": ["React.js", "SCSS","JavaScript (ES6+)"],
+    "repoLink": "https://github.com/Manish4550/Mac-os-terminal-portfolio",
+    "demoLink": "https://mac-os-terminal-portfolio-ylvn.vercel.app/ "
+  },
+  {
+    "id": 3,
     "image": "/Productivity Dashbord.png",
     "title": "Productivity Dashboard",
     "description": "A lightweight Productivity Dashboard built with HTML, CSS, and JavaScript. Track tasks, and see live time, date, and weather—all in one place.",
     "tags": ["HTML", "CSS", "JavaScript"],
     "repoLink": "https://github.com/Manish4550/productivity-dashboard?tab=readme-ov-file",
     "demoLink": "https://productivity-dashboard-iota-six.vercel.app/"
-  },
-  {
-    "id": 3,
-    "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&q=80&w=1000",
-    "title": "SecureAuth - Backend Identity Service",
-    "description": "A robust backend authentication microservice featuring JWT implementation, role-based access control, and OAuth2 integration.",
-    "tags": ["Python", "Django", "PostgreSQL", "Docker", "Redis", "JWT"],
-    "repoLink": "https://github.com/django/django",
-    "demoLink": null
   },
   {
     "id": 4,
