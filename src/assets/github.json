@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "../../public/Authentication.png",
+    "image": "/Authentication.png",
     "title": "MERN Authentication System",
     "description": "A full-stack authentication and authorization system built using MongoDB, Express, React, and Node.js. This project implements a complete auth flow including email verification, login, logout, forgot password, reset password, and protected routes.",
     "tags": ["React","Backend", "Express.js","Node.js" , "MongoDB & Mongoose", "JWT", "Bryptjs","Tailwind", "Nodemailer (Mailtrap for email testing)"],
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "image": "../../public/Productivity Dashbord.png",
+    "image": "/Productivity Dashbord.png",
     "title": "Productivity Dashboard",
     "description": "A lightweight Productivity Dashboard built with HTML, CSS, and JavaScript. Track tasks, and see live time, date, and weather—all in one place.",
     "tags": ["HTML", "CSS", "JavaScript"],
