@@ -3,8 +3,8 @@
 An interactive MacOS-inspired developer portfolio built using React.js.  
 This project simulates a real desktop experience with draggable windows, terminal commands, project previews, and resume access.
 
-🚀 Live Demo: (Add your deployed link here)  
-📂 GitHub: https://github.com/your-username/your-repo-name
+🚀 Live Demo: https://mac-os-terminal-portfolio-ylvn.vercel.app/
+📂 GitHub: https://github.com/Manish4550/Mac-os-terminal-portfolio
 
 ---
 
