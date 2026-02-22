@@ -6,7 +6,7 @@ const Resume = ({ windowName, setWindowsState }) => {
     return (
         <MacWindow windowName={windowName} setWindowsState={setWindowsState} >
             <div className="resume-window">
-                <embed src="/manish-resume.pdf" frameborder="0"></embed>
+                <embed src="/Manish_FullStatck.pdf" frameborder="0"></embed>
             </div>
         </MacWindow>
     )
